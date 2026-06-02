@@ -1,0 +1,26 @@
+Run name: L01_LOSS01__WRCL_F16_seed1
+Config name: LOSS01__WRCL
+Loss abbr: WRCL
+Residual type: Charb
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]
+Feature count: 16
+Use weight: 1
+Use norm: 1
+epsA: 0.0001
+tau: 0.01
+numNeurons: [80 120 160 180 240 260 300]
+Final train loss: 0.3010207117
+
+Validation metrics
+mean|s| GT      : 0.03004600666
+mean|s| Pred    : 0.03001939878
+mean|delta s|   : 6.330727047e-05
+mean dphi       : -0.0009425612516
+std dphi        : 0.007953559048
+mean |dphi|     : 0.001660300302
+complex NRSE    : 0.002346421592
+complex MAE     : 6.330727047e-05
+NRSE Re         : 0.001926144003
+NRSE Im         : 0.006136274897
+Magnitude NRSE  : 0.001678395667
+Magnitude MAE   : 4.184032514e-05

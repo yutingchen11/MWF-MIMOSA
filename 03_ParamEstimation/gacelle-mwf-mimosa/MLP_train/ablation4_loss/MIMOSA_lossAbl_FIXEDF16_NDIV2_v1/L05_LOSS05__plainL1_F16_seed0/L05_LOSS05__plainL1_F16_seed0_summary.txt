@@ -1,0 +1,28 @@
+Run name: L05_LOSS05__plainL1_F16_seed0
+Config name: LOSS05__plainL1
+Loss name: plainL1
+Loss mode: 2
+Use weight: 0
+Use norm: 0
+epsA: 0.0001
+tau: 0.01
+
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]
+Feature count: 16
+Neuron div: 2
+numNeurons: [80 120 160 180 240 260 300]
+Final train loss: 3.711289537e-05
+
+Validation metrics
+mean|s| GT      : 0.03003562801
+mean|s| Pred    : 0.0300095845
+mean|delta s|   : 5.961422357e-05
+mean dphi       : 0.0002885384019
+std dphi        : 0.004418993369
+mean |dphi|     : 0.001320955926
+complex NRSE    : 0.002208153019
+complex MAE     : 5.961422357e-05
+NRSE Re         : 0.001822443563
+NRSE Im         : 0.005696960259
+Magnitude NRSE  : 0.001785075059
+Magnitude MAE   : 4.456383613e-05

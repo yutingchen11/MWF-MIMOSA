@@ -1,0 +1,22 @@
+Run name: A38_freqRaw-phaseTrig__PT-t_acq__FW1_F18
+Config name: freqRaw+phaseTrig__PT+t_acq__FW1
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 21 22]
+Feature count: 18
+Frequency mode: freqRaw+phaseTrig
+Time mode: PT+t_acq
+Use FW: 1
+Final train loss: 0.3008366525
+
+Validation metrics
+mean|s| GT      : 0.03003318608
+mean|s| Pred    : 0.03001683205
+mean|delta s|   : 0.0001128466392
+mean dphi       : 0.0002451805922
+std dphi        : 0.01314897556
+mean |dphi|     : 0.002801412949
+complex NRSE    : 0.004120909609
+complex MAE     : 0.0001128466392
+NRSE Re         : 0.0033258521
+NRSE Im         : 0.01103540231
+Magnitude NRSE  : 0.003235681448
+Magnitude MAE   : 8.067127783e-05

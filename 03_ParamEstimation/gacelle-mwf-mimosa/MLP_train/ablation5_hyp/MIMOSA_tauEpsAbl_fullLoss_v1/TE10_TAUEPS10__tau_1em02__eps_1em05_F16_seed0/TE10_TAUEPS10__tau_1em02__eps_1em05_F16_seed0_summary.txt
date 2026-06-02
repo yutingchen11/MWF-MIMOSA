@@ -1,0 +1,25 @@
+Run name: TE10_TAUEPS10__tau_1em02__eps_1em05_F16_seed0
+Config name: TAUEPS10__tau_1em02__eps_1em05
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]
+Feature count: 16
+Loss name: relCplx_full
+Loss mode: 1
+Use weight: 1
+Use norm: 1
+epsA: 1e-05
+tau: 0.01
+Final train loss: 0.0993899256
+
+Validation metrics
+mean|s| GT      : 0.03003562801
+mean|s| Pred    : 0.03005688824
+mean|delta s|   : 5.209608207e-05
+mean dphi       : -0.0002583961759
+std dphi        : 0.004227442201
+mean |dphi|     : 0.001212155912
+complex NRSE    : 0.001918962924
+complex MAE     : 5.209608207e-05
+NRSE Re         : 0.001574716647
+NRSE Im         : 0.005001813639
+Magnitude NRSE  : 0.001474525896
+Magnitude MAE   : 3.679534348e-05

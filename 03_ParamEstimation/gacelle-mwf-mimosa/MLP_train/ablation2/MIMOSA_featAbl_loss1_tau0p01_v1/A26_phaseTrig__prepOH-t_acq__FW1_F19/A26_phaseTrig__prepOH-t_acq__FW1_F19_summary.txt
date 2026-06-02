@@ -1,0 +1,22 @@
+Run name: A26_phaseTrig__prepOH-t_acq__FW1_F19
+Config name: phaseTrig__prepOH+t_acq__FW1
+Feature idx: [1 2 3 4 5 6 7 8 9 12 13 14 15 17 18 19 20 21 22]
+Feature count: 19
+Frequency mode: phaseTrig
+Time mode: prepOH+t_acq
+Use FW: 1
+Final train loss: 0.3008133173
+
+Validation metrics
+mean|s| GT      : 0.03003829531
+mean|s| Pred    : 0.02997398935
+mean|delta s|   : 0.0001025852616
+mean dphi       : -0.0009882682934
+std dphi        : 0.008007652126
+mean |dphi|     : 0.001857526484
+complex NRSE    : 0.003638925031
+complex MAE     : 0.0001025852616
+NRSE Re         : 0.00339595112
+NRSE Im         : 0.006598026957
+Magnitude NRSE  : 0.003216298297
+Magnitude MAE   : 8.610604709e-05

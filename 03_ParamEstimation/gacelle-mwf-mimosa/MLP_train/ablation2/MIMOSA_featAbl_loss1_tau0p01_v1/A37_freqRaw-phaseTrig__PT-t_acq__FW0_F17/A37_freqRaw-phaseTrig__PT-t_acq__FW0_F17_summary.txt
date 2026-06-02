@@ -1,0 +1,22 @@
+Run name: A37_freqRaw-phaseTrig__PT-t_acq__FW0_F17
+Config name: freqRaw+phaseTrig__PT+t_acq__FW0
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 21]
+Feature count: 17
+Frequency mode: freqRaw+phaseTrig
+Time mode: PT+t_acq
+Use FW: 0
+Final train loss: 0.301042825
+
+Validation metrics
+mean|s| GT      : 0.03003651649
+mean|s| Pred    : 0.03004657477
+mean|delta s|   : 8.65929469e-05
+mean dphi       : -0.0006474314141
+std dphi        : 0.008143368177
+mean |dphi|     : 0.002188084181
+complex NRSE    : 0.003170416458
+complex MAE     : 8.65929469e-05
+NRSE Re         : 0.002492189175
+NRSE Im         : 0.00883882679
+Magnitude NRSE  : 0.002436890034
+Magnitude MAE   : 6.033643149e-05

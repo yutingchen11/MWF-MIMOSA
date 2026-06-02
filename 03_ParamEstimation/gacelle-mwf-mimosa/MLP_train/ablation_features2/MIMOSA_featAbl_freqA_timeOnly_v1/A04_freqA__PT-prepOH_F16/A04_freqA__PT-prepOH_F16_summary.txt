@@ -1,0 +1,21 @@
+Run name: A04_freqA__PT-prepOH_F16
+Config name: freqA__PT+prepOH
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]
+Feature count: 16
+Frequency mode: freqA
+Time mode: PT+prepOH
+Final train loss: 0.3012097478
+
+Validation metrics
+mean|s| GT      : 0.03003562801
+mean|s| Pred    : 0.03002641909
+mean|delta s|   : 4.546053606e-05
+mean dphi       : 9.734477317e-06
+std dphi        : 0.003443733556
+mean |dphi|     : 0.001052237465
+complex NRSE    : 0.001675445237
+complex MAE     : 4.546053606e-05
+NRSE Re         : 0.001357180532
+NRSE Im         : 0.004464240279
+Magnitude NRSE  : 0.001303408179
+Magnitude MAE   : 3.229944195e-05

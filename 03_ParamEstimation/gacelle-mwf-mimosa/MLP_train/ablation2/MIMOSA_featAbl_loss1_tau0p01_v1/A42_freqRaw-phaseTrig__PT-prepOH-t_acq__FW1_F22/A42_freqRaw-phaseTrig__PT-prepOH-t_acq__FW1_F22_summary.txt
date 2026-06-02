@@ -1,0 +1,22 @@
+Run name: A42_freqRaw-phaseTrig__PT-prepOH-t_acq__FW1_F22
+Config name: freqRaw+phaseTrig__PT+prepOH+t_acq__FW1
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22]
+Feature count: 22
+Frequency mode: freqRaw+phaseTrig
+Time mode: PT+prepOH+t_acq
+Use FW: 1
+Final train loss: 0.3007875681
+
+Validation metrics
+mean|s| GT      : 0.03003292345
+mean|s| Pred    : 0.03003242798
+mean|delta s|   : 4.79545597e-05
+mean dphi       : 0.0006575870793
+std dphi        : 0.005190418102
+mean |dphi|     : 0.001318402588
+complex NRSE    : 0.001745003741
+complex MAE     : 4.79545597e-05
+NRSE Re         : 0.001265232801
+NRSE Im         : 0.005357794929
+Magnitude NRSE  : 0.001243463252
+Magnitude MAE   : 3.069759623e-05

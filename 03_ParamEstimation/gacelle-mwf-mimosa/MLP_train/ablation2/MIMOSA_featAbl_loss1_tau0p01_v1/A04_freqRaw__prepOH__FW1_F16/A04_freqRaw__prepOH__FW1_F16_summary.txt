@@ -1,0 +1,22 @@
+Run name: A04_freqRaw__prepOH__FW1_F16
+Config name: freqRaw__prepOH__FW1
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 17 18 19 20 22]
+Feature count: 16
+Frequency mode: freqRaw
+Time mode: prepOH
+Use FW: 1
+Final train loss: 0.3052961826
+
+Validation metrics
+mean|s| GT      : 0.03003562801
+mean|s| Pred    : 0.03005857952
+mean|delta s|   : 0.0009421556606
+mean dphi       : 0.0008923729765
+std dphi        : 0.05797309801
+mean |dphi|     : 0.02602973022
+complex NRSE    : 0.05817040801
+complex MAE     : 0.0009421556606
+NRSE Re         : 0.04658229277
+NRSE Im         : 0.157855019
+Magnitude NRSE  : 0.02310370095
+Magnitude MAE   : 0.0004018557374

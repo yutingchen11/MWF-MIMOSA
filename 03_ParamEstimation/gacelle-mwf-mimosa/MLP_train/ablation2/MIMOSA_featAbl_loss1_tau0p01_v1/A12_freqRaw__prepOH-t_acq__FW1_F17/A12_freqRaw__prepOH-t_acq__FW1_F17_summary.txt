@@ -1,0 +1,22 @@
+Run name: A12_freqRaw__prepOH-t_acq__FW1_F17
+Config name: freqRaw__prepOH+t_acq__FW1
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 17 18 19 20 21 22]
+Feature count: 17
+Frequency mode: freqRaw
+Time mode: prepOH+t_acq
+Use FW: 1
+Final train loss: 0.3049336374
+
+Validation metrics
+mean|s| GT      : 0.03003651649
+mean|s| Pred    : 0.0300339181
+mean|delta s|   : 0.000902562635
+mean dphi       : 0.000550709723
+std dphi        : 0.05306343362
+mean |dphi|     : 0.02511315607
+complex NRSE    : 0.05280018225
+complex MAE     : 0.000902562635
+NRSE Re         : 0.04152959213
+NRSE Im         : 0.1470788717
+Magnitude NRSE  : 0.02144807577
+Magnitude MAE   : 0.0003861627483

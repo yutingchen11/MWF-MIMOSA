@@ -1,0 +1,22 @@
+Run name: A31_freqRaw-phaseTrig__prepOH__FW0_F19
+Config name: freqRaw+phaseTrig__prepOH__FW0
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 17 18 19 20]
+Feature count: 19
+Frequency mode: freqRaw+phaseTrig
+Time mode: prepOH
+Use FW: 0
+Final train loss: 0.3008087575
+
+Validation metrics
+mean|s| GT      : 0.03003829531
+mean|s| Pred    : 0.03002358414
+mean|delta s|   : 5.722619608e-05
+mean dphi       : -0.0001941172959
+std dphi        : 0.003839713521
+mean |dphi|     : 0.001222772524
+complex NRSE    : 0.002134859562
+complex MAE     : 5.722619608e-05
+NRSE Re         : 0.00179961219
+NRSE Im         : 0.005285208113
+Magnitude NRSE  : 0.001744086272
+Magnitude MAE   : 4.261843787e-05

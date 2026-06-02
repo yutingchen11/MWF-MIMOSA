@@ -1,0 +1,26 @@
+Run name: L06_LOSS06__WL1_F16_seed3
+Config name: LOSS06__WL1
+Loss abbr: WL1
+Residual type: L1
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]
+Feature count: 16
+Use weight: 1
+Use norm: 0
+epsA: 0.0001
+tau: 0.01
+numNeurons: [80 120 160 180 240 260 300]
+Final train loss: 6.97489013e-05
+
+Validation metrics
+mean|s| GT      : 0.03008805029
+mean|s| Pred    : 0.03003433347
+mean|delta s|   : 7.98977635e-05
+mean dphi       : 0.0009022345184
+std dphi        : 0.01064305287
+mean |dphi|     : 0.001712697791
+complex NRSE    : 0.002852338366
+complex MAE     : 7.98977635e-05
+NRSE Re         : 0.002403334249
+NRSE Im         : 0.007105243858
+Magnitude NRSE  : 0.00238716742
+Magnitude MAE   : 6.315927749e-05

@@ -1,0 +1,21 @@
+Run name: A02_freqA__prepOH_F15
+Config name: freqA__prepOH
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 17 18 19 20]
+Feature count: 15
+Frequency mode: freqA
+Time mode: prepOH
+Final train loss: 0.3053377271
+
+Validation metrics
+mean|s| GT      : 0.03004294075
+mean|s| Pred    : 0.03004593402
+mean|delta s|   : 0.0009328512824
+mean dphi       : 0.0003234601754
+std dphi        : 0.05767549202
+mean |dphi|     : 0.02598619647
+complex NRSE    : 0.05767348409
+complex MAE     : 0.0009328512824
+NRSE Re         : 0.04609428346
+NRSE Im         : 0.1570536643
+Magnitude NRSE  : 0.0229169298
+Magnitude MAE   : 0.0003910407249

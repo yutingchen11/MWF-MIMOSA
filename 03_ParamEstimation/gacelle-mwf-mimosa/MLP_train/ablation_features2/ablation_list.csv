@@ -1,0 +1,5 @@
+id,name,freq_mode,time_mode,nfeatures,feature_idx
+1,freqA__none,freqA,none,11,"[1 2 3 4 5 6 7 8 9 10 11]"
+2,freqA__prepOH,freqA,prepOH,15,"[1 2 3 4 5 6 7 8 9 10 11 17 18 19 20]"
+3,freqA__PT,freqA,PT,12,"[1 2 3 4 5 6 7 8 9 10 11 16]"
+4,freqA__PT+prepOH,freqA,PT+prepOH,16,"[1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]"

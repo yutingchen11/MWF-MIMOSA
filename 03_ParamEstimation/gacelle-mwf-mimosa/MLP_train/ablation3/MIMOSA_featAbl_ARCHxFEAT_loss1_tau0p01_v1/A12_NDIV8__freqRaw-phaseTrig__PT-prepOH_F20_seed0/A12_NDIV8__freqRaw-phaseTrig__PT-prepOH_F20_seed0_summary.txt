@@ -1,0 +1,23 @@
+Run name: A12_NDIV8__freqRaw-phaseTrig__PT-prepOH_F20_seed0
+Config name: NDIV8__freqRaw+phaseTrig__PT+prepOH
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20]
+Feature count: 20
+Frequency mode: freqRaw+phaseTrig
+Time mode: PT+prepOH
+Neuron div: 8
+numNeurons: [20 30 40 45 60 65 75]
+Final train loss: 0.301235348
+
+Validation metrics
+mean|s| GT      : 0.03008164838
+mean|s| Pred    : 0.03006063774
+mean|delta s|   : 0.0001270608918
+mean dphi       : 0.000865190872
+std dphi        : 0.01184270345
+mean |dphi|     : 0.003240338992
+complex NRSE    : 0.004644673783
+complex MAE     : 0.0001270608918
+NRSE Re         : 0.003677979577
+NRSE Im         : 0.01285327878
+Magnitude NRSE  : 0.00353774149
+Magnitude MAE   : 8.807939594e-05

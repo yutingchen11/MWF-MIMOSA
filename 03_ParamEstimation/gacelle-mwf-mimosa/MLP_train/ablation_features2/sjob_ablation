@@ -1,0 +1,47 @@
+#!/bin/bash
+#SBATCH --job-name=sjob_feat_ablation
+#SBATCH --account=inverse
+#SBATCH --partition=rtx6000,rtx8000
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=128G
+#SBATCH --time=1-12:00:00
+#SBATCH --gpus=1
+#SBATCH --array=1-4
+#SBATCH --output=slurm-%A_%a.out
+#SBATCH --mail-type=BEGIN,END,FAIL
+
+set -euo pipefail
+
+cd /autofs/cluster/berkin/yuting/MATLAB/demo/gacelle-main/ANN_EPGXgen20240927/ablation_features
+
+CFG_FILE=ablation_list.txt
+
+if [ ! -f "${CFG_FILE}" ]; then
+  echo "ERROR: Cannot find ${CFG_FILE}"
+  exit 1
+fi
+
+N_CFG=$(wc -l < "${CFG_FILE}")
+
+if [ "${SLURM_ARRAY_TASK_ID}" -gt "${N_CFG}" ]; then
+  echo "ERROR: TaskID ${SLURM_ARRAY_TASK_ID} exceeds N_CFG=${N_CFG}"
+  exit 1
+fi
+
+CFG_NAME=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "${CFG_FILE}")
+
+if [ -z "${CFG_NAME}" ]; then
+  echo "ERROR: Empty cfg name for TaskID=${SLURM_ARRAY_TASK_ID}"
+  exit 1
+fi
+
+echo "Running cfg: ${CFG_NAME}"
+echo "CFG_IDX: ${SLURM_ARRAY_TASK_ID} / ${N_CFG}"
+echo "JobID: ${SLURM_JOB_ID}  TaskID: ${SLURM_ARRAY_TASK_ID}"
+echo "Node: $(hostname)"
+echo "CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES}"
+echo "PWD=$(pwd)"
+
+matlab -batch "run_one_feature_ablation('${CFG_NAME}');"

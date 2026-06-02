@@ -1,0 +1,22 @@
+Run name: A30_freqRaw-phaseTrig__PT__FW1_F17
+Config name: freqRaw+phaseTrig__PT__FW1
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 22]
+Feature count: 17
+Frequency mode: freqRaw+phaseTrig
+Time mode: PT
+Use FW: 1
+Final train loss: 0.3010432422
+
+Validation metrics
+mean|s| GT      : 0.03003651649
+mean|s| Pred    : 0.02995766513
+mean|delta s|   : 0.0001291258086
+mean dphi       : -0.001345820376
+std dphi        : 0.01231358945
+mean |dphi|     : 0.002702737926
+complex NRSE    : 0.004641120788
+complex MAE     : 0.0001291258086
+NRSE Re         : 0.004012825433
+NRSE Im         : 0.01085885614
+Magnitude NRSE  : 0.003850077512
+Magnitude MAE   : 9.974939167e-05

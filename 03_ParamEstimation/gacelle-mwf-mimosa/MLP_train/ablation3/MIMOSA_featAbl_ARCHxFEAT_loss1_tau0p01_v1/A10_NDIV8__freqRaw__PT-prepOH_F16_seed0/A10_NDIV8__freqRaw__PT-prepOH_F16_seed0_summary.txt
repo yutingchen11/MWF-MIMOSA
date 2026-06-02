@@ -1,0 +1,23 @@
+Run name: A10_NDIV8__freqRaw__PT-prepOH_F16_seed0
+Config name: NDIV8__freqRaw__PT+prepOH
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]
+Feature count: 16
+Frequency mode: freqRaw
+Time mode: PT+prepOH
+Neuron div: 8
+numNeurons: [20 30 40 45 60 65 75]
+Final train loss: 0.3011953831
+
+Validation metrics
+mean|s| GT      : 0.03008307703
+mean|s| Pred    : 0.03011038713
+mean|delta s|   : 0.0001403786591
+mean dphi       : -0.0005836884375
+std dphi        : 0.01200447883
+mean |dphi|     : 0.003439417807
+complex NRSE    : 0.005154060666
+complex MAE     : 0.0001403786591
+NRSE Re         : 0.004135515541
+NRSE Im         : 0.01399611589
+Magnitude NRSE  : 0.003961959854
+Magnitude MAE   : 9.802197746e-05

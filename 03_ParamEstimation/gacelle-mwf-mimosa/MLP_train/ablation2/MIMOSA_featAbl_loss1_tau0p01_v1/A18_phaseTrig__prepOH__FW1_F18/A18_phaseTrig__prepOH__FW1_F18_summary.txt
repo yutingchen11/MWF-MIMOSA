@@ -1,0 +1,22 @@
+Run name: A18_phaseTrig__prepOH__FW1_F18
+Config name: phaseTrig__prepOH__FW1
+Feature idx: [1 2 3 4 5 6 7 8 9 12 13 14 15 17 18 19 20 22]
+Feature count: 18
+Frequency mode: phaseTrig
+Time mode: prepOH
+Use FW: 1
+Final train loss: 0.3008185923
+
+Validation metrics
+mean|s| GT      : 0.03003318608
+mean|s| Pred    : 0.02997090109
+mean|delta s|   : 0.0001050866413
+mean dphi       : -0.0004365945642
+std dphi        : 0.006740442012
+mean |dphi|     : 0.001729022362
+complex NRSE    : 0.003833605442
+complex MAE     : 0.0001050866413
+NRSE Re         : 0.003565887455
+NRSE Im         : 0.007054149639
+Magnitude NRSE  : 0.003483724315
+Magnitude MAE   : 8.981257997e-05

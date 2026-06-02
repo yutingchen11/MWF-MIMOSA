@@ -1,0 +1,23 @@
+Run name: A03_NDIV1__freqRaw-phaseTrig__PT-prepOH_F20_seed0
+Config name: NDIV1__freqRaw+phaseTrig__PT+prepOH
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20]
+Feature count: 20
+Frequency mode: freqRaw+phaseTrig
+Time mode: PT+prepOH
+Neuron div: 1
+numNeurons: [160 240 320 360 480 520 600]
+Final train loss: 0.3195111752
+
+Validation metrics
+mean|s| GT      : 0.02942577749
+mean|s| Pred    : 0.03047314845
+mean|delta s|   : 0.004018763546
+mean dphi       : -0.1001496464
+std dphi        : 0.2050021142
+mean |dphi|     : 0.153582111
+complex NRSE    : 0.1316008568
+complex MAE     : 0.004018763546
+NRSE Re         : 0.04704635963
+NRSE Im         : 0.5203150511
+Magnitude NRSE  : 0.05693243444
+Magnitude MAE   : 0.00145215739

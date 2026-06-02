@@ -1,0 +1,26 @@
+Run name: L05_LOSS05__WRL1_F16_seed0
+Config name: LOSS05__WRL1
+Loss abbr: WRL1
+Residual type: L1
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]
+Feature count: 16
+Use weight: 1
+Use norm: 1
+epsA: 0.0001
+tau: 0.01
+numNeurons: [80 120 160 180 240 260 300]
+Final train loss: 0.002278753556
+
+Validation metrics
+mean|s| GT      : 0.03003562801
+mean|s| Pred    : 0.0300342571
+mean|delta s|   : 5.913514542e-05
+mean dphi       : 0.0008211052045
+std dphi        : 0.004745701328
+mean |dphi|     : 0.001461480977
+complex NRSE    : 0.002203621203
+complex MAE     : 5.913514542e-05
+NRSE Re         : 0.001620015479
+NRSE Im         : 0.00666654529
+Magnitude NRSE  : 0.001577204792
+Magnitude MAE   : 3.837528129e-05

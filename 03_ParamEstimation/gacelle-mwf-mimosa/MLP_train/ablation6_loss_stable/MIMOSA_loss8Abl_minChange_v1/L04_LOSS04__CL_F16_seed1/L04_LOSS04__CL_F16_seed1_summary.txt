@@ -1,0 +1,26 @@
+Run name: L04_LOSS04__CL_F16_seed1
+Config name: LOSS04__CL
+Loss abbr: CL
+Residual type: Charb
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]
+Feature count: 16
+Use weight: 0
+Use norm: 0
+epsA: 0.0001
+tau: 0.01
+numNeurons: [80 120 160 180 240 260 300]
+Final train loss: 0.01000054833
+
+Validation metrics
+mean|s| GT      : 0.03004600666
+mean|s| Pred    : 0.03010378033
+mean|delta s|   : 9.844043961e-05
+mean dphi       : -0.0002228226804
+std dphi        : 0.008066989481
+mean |dphi|     : 0.00201248005
+complex NRSE    : 0.003595351474
+complex MAE     : 9.844043961e-05
+NRSE Re         : 0.003176673781
+NRSE Im         : 0.007980442606
+Magnitude NRSE  : 0.003061032388
+Magnitude MAE   : 7.791825919e-05

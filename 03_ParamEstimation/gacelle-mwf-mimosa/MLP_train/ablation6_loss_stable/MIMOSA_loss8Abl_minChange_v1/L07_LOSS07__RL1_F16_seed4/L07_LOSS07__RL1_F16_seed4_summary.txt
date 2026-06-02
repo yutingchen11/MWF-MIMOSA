@@ -1,0 +1,26 @@
+Run name: L07_LOSS07__RL1_F16_seed4
+Config name: LOSS07__RL1
+Loss abbr: RL1
+Residual type: L1
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]
+Feature count: 16
+Use weight: 0
+Use norm: 1
+epsA: 0.0001
+tau: 0.01
+numNeurons: [80 120 160 180 240 260 300]
+Final train loss: 0.002515109954
+
+Validation metrics
+mean|s| GT      : 0.03007400222
+mean|s| Pred    : 0.03007366508
+mean|delta s|   : 5.986654287e-05
+mean dphi       : -0.0006555173313
+std dphi        : 0.005849926267
+mean |dphi|     : 0.00150623871
+complex NRSE    : 0.002233148552
+complex MAE     : 5.986654287e-05
+NRSE Re         : 0.001676346292
+NRSE Im         : 0.006585713942
+Magnitude NRSE  : 0.001622215845
+Magnitude MAE   : 3.96114774e-05

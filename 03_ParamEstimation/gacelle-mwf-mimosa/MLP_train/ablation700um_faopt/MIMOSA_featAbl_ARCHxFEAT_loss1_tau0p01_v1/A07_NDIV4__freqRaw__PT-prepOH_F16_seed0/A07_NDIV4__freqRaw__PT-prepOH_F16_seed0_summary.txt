@@ -1,0 +1,23 @@
+Run name: A07_NDIV4__freqRaw__PT-prepOH_F16_seed0
+Config name: NDIV4__freqRaw__PT+prepOH
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]
+Feature count: 16
+Frequency mode: freqRaw
+Time mode: PT+prepOH
+Neuron div: 4
+numNeurons: [40 60 80 90 120 130 150]
+Final train loss: 0.2550238371
+
+Validation metrics
+mean|s| GT      : 0.03890845925
+mean|s| Pred    : 0.03885491192
+mean|delta s|   : 0.00011502087
+mean dphi       : 0.0005520863342
+std dphi        : 0.007189001422
+mean |dphi|     : 0.001733181998
+complex NRSE    : 0.003278068965
+complex MAE     : 0.00011502087
+NRSE Re         : 0.00277219573
+NRSE Im         : 0.007793052588
+Magnitude NRSE  : 0.00269417651
+Magnitude MAE   : 8.718266326e-05

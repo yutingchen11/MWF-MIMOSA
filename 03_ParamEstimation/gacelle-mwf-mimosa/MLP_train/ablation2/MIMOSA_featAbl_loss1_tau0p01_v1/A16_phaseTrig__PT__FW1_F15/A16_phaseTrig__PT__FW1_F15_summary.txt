@@ -1,0 +1,22 @@
+Run name: A16_phaseTrig__PT__FW1_F15
+Config name: phaseTrig__PT__FW1
+Feature idx: [1 2 3 4 5 6 7 8 9 12 13 14 15 16 22]
+Feature count: 15
+Frequency mode: phaseTrig
+Time mode: PT
+Use FW: 1
+Final train loss: 0.3013006151
+
+Validation metrics
+mean|s| GT      : 0.03004294075
+mean|s| Pred    : 0.0300492961
+mean|delta s|   : 6.71629532e-05
+mean dphi       : 0.0006284837727
+std dphi        : 0.007290808484
+mean |dphi|     : 0.001721320907
+complex NRSE    : 0.002450030996
+complex MAE     : 6.71629532e-05
+NRSE Re         : 0.001912042848
+NRSE Im         : 0.006905150134
+Magnitude NRSE  : 0.001855727751
+Magnitude MAE   : 4.600508692e-05

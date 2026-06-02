@@ -1,0 +1,22 @@
+Run name: A02_freqRaw__PT__FW1_F13
+Config name: freqRaw__PT__FW1
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 16 22]
+Feature count: 13
+Frequency mode: freqRaw
+Time mode: PT
+Use FW: 1
+Final train loss: 0.3011995852
+
+Validation metrics
+mean|s| GT      : 0.03003947064
+mean|s| Pred    : 0.0299985148
+mean|delta s|   : 0.0001428091928
+mean dphi       : 0.003967997152
+std dphi        : 0.01178479847
+mean |dphi|     : 0.004972448107
+complex NRSE    : 0.004805854056
+complex MAE     : 0.0001428091928
+NRSE Re         : 0.002176582115
+NRSE Im         : 0.01868727989
+Magnitude NRSE  : 0.002410366433
+Magnitude MAE   : 6.075607598e-05

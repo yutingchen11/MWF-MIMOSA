@@ -1,0 +1,13 @@
+id,name,freq_mode,time_mode,neuron_div,numNeurons,nfeatures,feature_idx
+1,NDIV1__freqRaw__PT+prepOH,freqRaw,PT+prepOH,1,"[160 240 320 360 480 520 600]",16,"[1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]"
+2,NDIV1__phaseTrig__PT+prepOH,phaseTrig,PT+prepOH,1,"[160 240 320 360 480 520 600]",18,"[1 2 3 4 5 6 7 8 9 12 13 14 15 16 17 18 19 20]"
+3,NDIV1__freqRaw+phaseTrig__PT+prepOH,freqRaw+phaseTrig,PT+prepOH,1,"[160 240 320 360 480 520 600]",20,"[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20]"
+4,NDIV2__freqRaw__PT+prepOH,freqRaw,PT+prepOH,2,"[80 120 160 180 240 260 300]",16,"[1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]"
+5,NDIV2__phaseTrig__PT+prepOH,phaseTrig,PT+prepOH,2,"[80 120 160 180 240 260 300]",18,"[1 2 3 4 5 6 7 8 9 12 13 14 15 16 17 18 19 20]"
+6,NDIV2__freqRaw+phaseTrig__PT+prepOH,freqRaw+phaseTrig,PT+prepOH,2,"[80 120 160 180 240 260 300]",20,"[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20]"
+7,NDIV4__freqRaw__PT+prepOH,freqRaw,PT+prepOH,4,"[40 60 80 90 120 130 150]",16,"[1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]"
+8,NDIV4__phaseTrig__PT+prepOH,phaseTrig,PT+prepOH,4,"[40 60 80 90 120 130 150]",18,"[1 2 3 4 5 6 7 8 9 12 13 14 15 16 17 18 19 20]"
+9,NDIV4__freqRaw+phaseTrig__PT+prepOH,freqRaw+phaseTrig,PT+prepOH,4,"[40 60 80 90 120 130 150]",20,"[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20]"
+10,NDIV8__freqRaw__PT+prepOH,freqRaw,PT+prepOH,8,"[20 30 40 45 60 65 75]",16,"[1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]"
+11,NDIV8__phaseTrig__PT+prepOH,phaseTrig,PT+prepOH,8,"[20 30 40 45 60 65 75]",18,"[1 2 3 4 5 6 7 8 9 12 13 14 15 16 17 18 19 20]"
+12,NDIV8__freqRaw+phaseTrig__PT+prepOH,freqRaw+phaseTrig,PT+prepOH,8,"[20 30 40 45 60 65 75]",20,"[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20]"

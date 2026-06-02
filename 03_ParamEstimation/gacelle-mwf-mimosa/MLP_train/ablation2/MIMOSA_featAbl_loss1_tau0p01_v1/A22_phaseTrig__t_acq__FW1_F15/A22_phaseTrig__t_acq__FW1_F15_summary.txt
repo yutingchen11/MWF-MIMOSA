@@ -1,0 +1,22 @@
+Run name: A22_phaseTrig__t_acq__FW1_F15
+Config name: phaseTrig__t_acq__FW1
+Feature idx: [1 2 3 4 5 6 7 8 9 12 13 14 15 21 22]
+Feature count: 15
+Frequency mode: phaseTrig
+Time mode: t_acq
+Use FW: 1
+Final train loss: 0.3012997508
+
+Validation metrics
+mean|s| GT      : 0.03004294075
+mean|s| Pred    : 0.03001294658
+mean|delta s|   : 9.19692975e-05
+mean dphi       : -0.0002238942106
+std dphi        : 0.009923685342
+mean |dphi|     : 0.001732288743
+complex NRSE    : 0.003385457909
+complex MAE     : 9.19692975e-05
+NRSE Re         : 0.003153675236
+NRSE Im         : 0.006195120048
+Magnitude NRSE  : 0.002987429034
+Magnitude MAE   : 7.565567648e-05

@@ -1,0 +1,23 @@
+Run name: A08_NDIV4__phaseTrig__PT-prepOH_F18_seed0
+Config name: NDIV4__phaseTrig__PT+prepOH
+Feature idx: [1 2 3 4 5 6 7 8 9 12 13 14 15 16 17 18 19 20]
+Feature count: 18
+Frequency mode: phaseTrig
+Time mode: PT+prepOH
+Neuron div: 4
+numNeurons: [40 60 80 90 120 130 150]
+Final train loss: 0.2550551593
+
+Validation metrics
+mean|s| GT      : 0.03890659288
+mean|s| Pred    : 0.03891841322
+mean|delta s|   : 9.008313646e-05
+mean dphi       : 0.0004671716888
+std dphi        : 0.004069278482
+mean |dphi|     : 0.001575483358
+complex NRSE    : 0.002552830381
+complex MAE     : 9.008313646e-05
+NRSE Re         : 0.002022561384
+NRSE Im         : 0.006793907844
+Magnitude NRSE  : 0.001927234931
+Magnitude MAE   : 6.196213508e-05

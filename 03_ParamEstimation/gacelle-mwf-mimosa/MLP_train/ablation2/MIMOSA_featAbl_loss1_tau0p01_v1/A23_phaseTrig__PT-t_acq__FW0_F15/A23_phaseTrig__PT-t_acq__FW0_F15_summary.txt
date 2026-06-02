@@ -1,0 +1,22 @@
+Run name: A23_phaseTrig__PT-t_acq__FW0_F15
+Config name: phaseTrig__PT+t_acq__FW0
+Feature idx: [1 2 3 4 5 6 7 8 9 12 13 14 15 16 21]
+Feature count: 15
+Frequency mode: phaseTrig
+Time mode: PT+t_acq
+Use FW: 0
+Final train loss: 0.3012907803
+
+Validation metrics
+mean|s| GT      : 0.03004294075
+mean|s| Pred    : 0.03003930673
+mean|delta s|   : 9.078718722e-05
+mean dphi       : -0.002499035792
+std dphi        : 0.009314445779
+mean |dphi|     : 0.003085140837
+complex NRSE    : 0.003129283432
+complex MAE     : 9.078718722e-05
+NRSE Re         : 0.001568557462
+NRSE Im         : 0.0118325958
+Magnitude NRSE  : 0.001555557828
+Magnitude MAE   : 3.788023969e-05

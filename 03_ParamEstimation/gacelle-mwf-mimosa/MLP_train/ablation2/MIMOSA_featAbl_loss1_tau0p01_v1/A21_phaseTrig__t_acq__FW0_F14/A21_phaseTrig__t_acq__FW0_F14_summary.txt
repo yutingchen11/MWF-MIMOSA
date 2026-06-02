@@ -1,0 +1,22 @@
+Run name: A21_phaseTrig__t_acq__FW0_F14
+Config name: phaseTrig__t_acq__FW0
+Feature idx: [1 2 3 4 5 6 7 8 9 12 13 14 15 21]
+Feature count: 14
+Frequency mode: phaseTrig
+Time mode: t_acq
+Use FW: 0
+Final train loss: 0.3014286458
+
+Validation metrics
+mean|s| GT      : 0.03004080616
+mean|s| Pred    : 0.03008360043
+mean|delta s|   : 0.0001426110248
+mean dphi       : 0.0006228605052
+std dphi        : 0.01346592419
+mean |dphi|     : 0.003255240154
+complex NRSE    : 0.005242895801
+complex MAE     : 0.0001426110248
+NRSE Re         : 0.004379478283
+NRSE Im         : 0.01323245745
+Magnitude NRSE  : 0.004210316576
+Magnitude MAE   : 0.0001042554068

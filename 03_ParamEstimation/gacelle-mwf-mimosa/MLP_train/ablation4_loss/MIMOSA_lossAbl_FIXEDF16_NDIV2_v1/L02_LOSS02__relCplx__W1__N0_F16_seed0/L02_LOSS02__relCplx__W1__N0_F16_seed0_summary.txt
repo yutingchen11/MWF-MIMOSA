@@ -1,0 +1,28 @@
+Run name: L02_LOSS02__relCplx__W1__N0_F16_seed0
+Config name: LOSS02__relCplx__W1__N0
+Loss name: relCplx
+Loss mode: 1
+Use weight: 1
+Use norm: 0
+epsA: 0.0001
+tau: 0.01
+
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]
+Feature count: 16
+Neuron div: 2
+numNeurons: [80 120 160 180 240 260 300]
+Final train loss: 0.008820336312
+
+Validation metrics
+mean|s| GT      : 0.03003562801
+mean|s| Pred    : 0.0300240051
+mean|delta s|   : 5.645757483e-05
+mean dphi       : -0.000168963481
+std dphi        : 0.005872120615
+mean |dphi|     : 0.001440747757
+complex NRSE    : 0.00207901746
+complex MAE     : 5.645757483e-05
+NRSE Re         : 0.001636406989
+NRSE Im         : 0.005787536502
+Magnitude NRSE  : 0.001567277475
+Magnitude MAE   : 3.891232336e-05

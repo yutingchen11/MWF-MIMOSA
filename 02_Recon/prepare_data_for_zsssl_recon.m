@@ -275,10 +275,10 @@ mask_all = kspace_svd ~= 0;
 
 tmp = fftshift(ifft(ifftshift(kspace_svd),[],1))* sqrt(nx); 
 %% slice by slice
-if ~exist('zsssl_recon/data', 'dir')
-    mkdir('zsssl_recon/data'); 
+if ~exist('zsssl_recon_1mm/data', 'dir')
+    mkdir('zsssl_recon_1mm/data'); 
 end
-cd('zsssl_recon/data/')
+cd('zsssl_recon_1mm/data/')
 
 for ss = 50:230 % neck was skipped here, use 1:end if needed
     kspace =  squeeze(tmp(ss,:,:,:,:));

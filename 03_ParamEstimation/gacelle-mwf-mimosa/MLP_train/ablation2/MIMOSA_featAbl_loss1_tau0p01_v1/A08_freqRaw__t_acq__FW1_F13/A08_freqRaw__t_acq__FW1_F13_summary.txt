@@ -1,0 +1,22 @@
+Run name: A08_freqRaw__t_acq__FW1_F13
+Config name: freqRaw__t_acq__FW1
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 21 22]
+Feature count: 13
+Frequency mode: freqRaw
+Time mode: t_acq
+Use FW: 1
+Final train loss: 0.3051445186
+
+Validation metrics
+mean|s| GT      : 0.03003947064
+mean|s| Pred    : 0.02994837426
+mean|delta s|   : 0.000946740096
+mean dphi       : 0.005084923934
+std dphi        : 0.0566579178
+mean |dphi|     : 0.02662063763
+complex NRSE    : 0.05441970378
+complex MAE     : 0.000946740096
+NRSE Re         : 0.04293109104
+NRSE Im         : 0.1510921568
+Magnitude NRSE  : 0.02235902846
+Magnitude MAE   : 0.0004064916866

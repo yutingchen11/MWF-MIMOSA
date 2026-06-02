@@ -1,0 +1,26 @@
+Run name: L03_LOSS03__RCL_F16_seed4
+Config name: LOSS03__RCL
+Loss abbr: RCL
+Residual type: Charb
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]
+Feature count: 16
+Use weight: 0
+Use norm: 1
+epsA: 0.0001
+tau: 0.01
+numNeurons: [80 120 160 180 240 260 300]
+Final train loss: 0.354623735
+
+Validation metrics
+mean|s| GT      : 0.03007400222
+mean|s| Pred    : 0.03002408706
+mean|delta s|   : 7.370142703e-05
+mean dphi       : -0.0003592559951
+std dphi        : 0.00830913242
+mean |dphi|     : 0.001437023981
+complex NRSE    : 0.002555382438
+complex MAE     : 7.370142703e-05
+NRSE Re         : 0.002385497326
+NRSE Im         : 0.004618567415
+Magnitude NRSE  : 0.002170123858
+Magnitude MAE   : 6.062435568e-05

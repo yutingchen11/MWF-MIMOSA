@@ -1,0 +1,22 @@
+Run name: A35_freqRaw-phaseTrig__t_acq__FW0_F16
+Config name: freqRaw+phaseTrig__t_acq__FW0
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 21]
+Feature count: 16
+Frequency mode: freqRaw+phaseTrig
+Time mode: t_acq
+Use FW: 0
+Final train loss: 0.3012137711
+
+Validation metrics
+mean|s| GT      : 0.03003562801
+mean|s| Pred    : 0.03009106405
+mean|delta s|   : 0.0001057331901
+mean dphi       : -0.002213221509
+std dphi        : 0.007064703852
+mean |dphi|     : 0.002765206387
+complex NRSE    : 0.003696420463
+complex MAE     : 0.0001057331901
+NRSE Re         : 0.002596284496
+NRSE Im         : 0.01168224774
+Magnitude NRSE  : 0.002631588839
+Magnitude MAE   : 6.713197217e-05

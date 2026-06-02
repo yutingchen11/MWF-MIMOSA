@@ -1,0 +1,26 @@
+Run name: L08_LOSS08__L1_F16_seed2
+Config name: LOSS08__L1
+Loss abbr: L1
+Residual type: L1
+Feature idx: [1 2 3 4 5 6 7 8 9 10 11 16 17 18 19 20]
+Feature count: 16
+Use weight: 0
+Use norm: 0
+epsA: 0.0001
+tau: 0.01
+numNeurons: [80 120 160 180 240 260 300]
+Final train loss: 7.683622971e-05
+
+Validation metrics
+mean|s| GT      : 0.03004678525
+mean|s| Pred    : 0.03008692712
+mean|delta s|   : 6.643864617e-05
+mean dphi       : -0.0007490080316
+std dphi        : 0.006712491624
+mean |dphi|     : 0.001470435178
+complex NRSE    : 0.002414806513
+complex MAE     : 6.643864617e-05
+NRSE Re         : 0.00200997456
+NRSE Im         : 0.006158128846
+Magnitude NRSE  : 0.002018998144
+Magnitude MAE   : 5.177719868e-05

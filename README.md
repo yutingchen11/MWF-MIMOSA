@@ -33,7 +33,7 @@ conda env create -f 02_Recon/zsssl_recon_1mm/environment_tf2.yml
 
 ### Data
 
-The raw MWF-MIMOSA data with 1 mm isotropic resolution can be downloaded from [here](https://drive.google.com/file/d/1KBWsIbsEYRE9UPjvUFiUG7LNIos81G2t/view?usp=drive_link).
+The raw MWF-MIMOSA data with 1 mm isotropic resolution can be downloaded from [here](https://doi.org/10.5281/zenodo.19869701).
 
 After downloading the raw data, place it in:
 

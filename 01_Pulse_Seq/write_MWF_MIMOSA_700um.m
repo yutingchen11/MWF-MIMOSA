@@ -41,7 +41,7 @@ bandwidth = 340;                % Hz/pixel
 flip_angle = 4;                 % degrees
 rfSpoilingInc=117;              % RF spoiling increment
 
-dwell = 9.8e-6;
+dwell = 9.6e-6;
 Tread = dwell*Nx;
 os_factor = 1;                  % readout oversampling amount
 
